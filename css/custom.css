@@ -1640,7 +1640,7 @@ header.main-header .header-sticky.active {
   z-index: 2;
 }
 
-.project-tag a {
+.project-tag a, .project-tag p {
   position: relative;
   display: block;
   backdrop-filter: blur(50px);
@@ -1655,7 +1655,7 @@ header.main-header .header-sticky.active {
   overflow: hidden;
 }
 
-.project-tag a::before {
+.project-tag a::before, .project-tag p::before {
   content: "";
   position: absolute;
   display: block;
@@ -4959,7 +4959,7 @@ header.main-header .header-sticky.active {
     top: 15px;
     left: 15px;
   }
-  .project-tag a {
+  .project-tag a, .project-tag p {
     font-size: 14px;
   }
   .project-image figure {
@@ -5696,7 +5696,7 @@ header.main-header .header-sticky.active {
   .what-we-item-content h3 {
     font-size: 18px;
   }
-  .project-tag a {
+  .project-tag a, .project-tag p {
     padding: 8px 10px;
   }
   .project-content h3 {
